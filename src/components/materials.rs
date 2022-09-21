@@ -102,7 +102,6 @@ pub fn materials() -> Html {
                     </div>
                 </div>
             </div>
-            <Link<Route> to={Route::Home}>{ "click here to go home" }</Link<Route>>
         </section>
     }
 }
