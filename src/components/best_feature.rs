@@ -4,7 +4,7 @@ use yew::prelude::*;
 pub fn best_feature() -> Html {
     html! {
         <section class="flex flex-col">
-            <h1 class="text-center text-6xl mt-16">{"ここがイチオシ！"}</h1>
+            <h1 class="text-center text-6xl mt-32">{"ここがイチオシ！"}</h1>
             <div class="grid grid-cols-3 gap-10 mx-auto my-16">
                 <div class="rounded-3xl" style="width: 425px;height:450px;">
                     <div class="bg-[url('static/BestFeature/GamePlay.png')] bg-center w-full h-screen bg-cover rounded-t-3xl" style="width: 425px; height: 240px;"/>

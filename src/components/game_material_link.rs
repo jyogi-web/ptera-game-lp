@@ -8,7 +8,7 @@ pub fn game_material_link() -> Html {
         <section class="flex flex-col">
             <h1 class="text-center text-6xl mt-16">{"おまけ"}</h1>
             <Link<Route> to={Route::Materials}>
-                <div class="relative mx-auto mt-16 mb-16" style="background: #FF0000;
+                <div class="relative mx-auto mt-16 mb-32" style="background: #FF0000;
                     border-radius: 25px;
                     width: 645px;
                     height: 140px;">
