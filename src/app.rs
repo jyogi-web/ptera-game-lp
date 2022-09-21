@@ -1,3 +1,4 @@
+use crate::components::about_tech::*;
 use crate::components::game_play::*;
 use crate::components::top::*;
 use yew::prelude::*;
@@ -8,6 +9,7 @@ pub fn app() -> Html {
         <>
             <Top />
             <GamePlay/>
+            <AboutTech/>
         </>
     }
 }
