@@ -8,10 +8,10 @@ use yew::prelude::*;
 pub fn app() -> Html {
     html! {
         <>
-            // <Top />
+            <Top />
             <BestFeature />
-            // <GamePlay/>
-            // <AboutTech/>
+            <GamePlay/>
+            <AboutTech/>
         </>
     }
 }
