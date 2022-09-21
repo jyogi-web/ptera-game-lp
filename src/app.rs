@@ -2,6 +2,7 @@ use crate::components::about_tech::*;
 use crate::components::appeal::*;
 use crate::components::best_feature::*;
 use crate::components::download_links::*;
+use crate::components::footer::*;
 use crate::components::game_material_link::*;
 use crate::components::game_play::*;
 use crate::components::materials::*;
@@ -25,13 +26,14 @@ pub enum Route {
 fn switch(routes: &Route) -> Html {
     match routes {
         Route::Home => html! { <>
-            // <Top />
-            // <BestFeature />
-            // <GamePlay/>
+            <Top />
+            <BestFeature />
+            <GamePlay/>
             <Appeal/>
-            // <DownloadLinks/>
-            // <AboutTech/>
-            // <GameMaterialLink/>
+            <DownloadLinks/>
+            <AboutTech/>
+            <GameMaterialLink/>
+            <Footer/>
         </> },
         Route::Materials => html! {
             <Materials />
