@@ -1,4 +1,5 @@
 use crate::components::about_tech::*;
+use crate::components::appeal::*;
 use crate::components::best_feature::*;
 use crate::components::download_links::*;
 use crate::components::game_material_link::*;
@@ -24,12 +25,13 @@ pub enum Route {
 fn switch(routes: &Route) -> Html {
     match routes {
         Route::Home => html! { <>
-            <Top />
-            <BestFeature />
-            <GamePlay/>
-            <DownloadLinks/>
-            <AboutTech/>
-            <GameMaterialLink/>
+            // <Top />
+            // <BestFeature />
+            // <GamePlay/>
+            <Appeal/>
+            // <DownloadLinks/>
+            // <AboutTech/>
+            // <GameMaterialLink/>
         </> },
         Route::Materials => html! {
             <Materials />
