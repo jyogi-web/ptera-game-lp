@@ -1,5 +1,6 @@
 use crate::components::about_tech::*;
 use crate::components::best_feature::*;
+use crate::components::download_links::*;
 use crate::components::game_material_link::*;
 use crate::components::game_play::*;
 use crate::components::materials::*;
@@ -26,6 +27,7 @@ fn switch(routes: &Route) -> Html {
             <Top />
             <BestFeature />
             <GamePlay/>
+            <DownloadLinks/>
             <AboutTech/>
             <GameMaterialLink/>
         </> },
