@@ -35,9 +35,10 @@ fn switch(routes: &Route) -> Html {
             <GameMaterialLink/>
             <Footer/>
         </> },
-        Route::Materials => html! {
+        Route::Materials => html! { <>
             <Materials />
-        },
+            <Footer/>
+        </> },
         Route::NotFound => html! { <h1>{ "404" }</h1> },
     }
 }
