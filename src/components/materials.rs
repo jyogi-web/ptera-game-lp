@@ -99,6 +99,16 @@ pub fn materials() -> Html {
                         </div>
                     </div>
                 </div>
+                <div class="rounded-3xl mx-auto" style="width: 425px;height:450px;background:#cccccc">
+                    <div class="bg-[url('static/Material/tower.png')] bg-center w-full h-screen bg-cover rounded-t-3xl mx-auto" style="width:384px;height:384px;"/>
+                    <div class="relative rounded-b-3xl" style="height:150px; background: #D9D9D9">
+                        <div class="absolute text-center" style="top: 50%; left: 50%; transform: translate(-50%, -50%); font-size:32px; width:400px">
+                            {"タワー"}
+                            <br/>
+                            {"sirin1001に作ってもらいました！"}
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     }
