@@ -1,6 +1,4 @@
-use crate::app::Route;
 use yew::prelude::*;
-use yew_router::prelude::*;
 
 #[derive(Clone, Debug, Default)]
 pub struct Material {
