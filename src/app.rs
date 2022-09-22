@@ -1,6 +1,7 @@
 use crate::components::about_tech::*;
 use crate::components::appeal::*;
 use crate::components::best_feature::*;
+use crate::components::description::*;
 use crate::components::download_links::*;
 use crate::components::footer::*;
 use crate::components::game_material_link::*;
@@ -27,6 +28,7 @@ fn switch(routes: &Route) -> Html {
     match routes {
         Route::Home => html! { <>
             <Top />
+            <Description/>
             <BestFeature />
             <GamePlay/>
             <Appeal/>
