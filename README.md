@@ -1,3 +1,13 @@
+# Ptera Game LP
+
+## 関連リポジトリ一覧
+- https://github.com/jyogi-web/ptera-game-front
+  - ゲームクライアント（Unity）があります。（ライセンスや秘密保持の都合上Privateにしています）
+- https://github.com/jyogi-web/ptera-api
+  - ゲームで使うAPIです。Rust製です。
+- https://github.com/jyogi-web/ptera-game-lp
+  - このリポジトリ。ゲームの紹介や配布をするサイトです。Rust製です。
+
 # Yew Trunk Template
 
 This is a fairly minimal template for a Yew app that's built with [Trunk].
